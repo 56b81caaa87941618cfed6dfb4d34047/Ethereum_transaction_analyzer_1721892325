@@ -18,5 +18,11 @@
         "content": "Sure, here's an example of HTML and CSS code for a basic sidebar with navigation links:\n\nHTML:\n\n```\n<div class=\"sidebar\">\n  <nav>\n    <ul>\n      <li><a href=\"#\">Home</a></li>\n      <li><a href=\"#\">About</a></li>\n      <li><a href=\"#\">Contact</a></li>\n    </ul>\n  </nav>\n</div>\n```\n\nCSS:\n\n```\n.sidebar {\n  background-color: #f2f2f2;\n  width: 200px;\n  position: fixed;\n  height: 100%;\n  left: 0;\n  top: 0;\n  overflow-x: hidden;\n  padding-top: 20px;\n}\n\n.sidebar a {\n  padding: 8px 8px 8px 32px;\n  text-decoration: none;\n  font-size: 16px;\n  color: #333;\n  display: block;\n  transition: 0.3s;\n}\n\n.sidebar a:hover {\n  background-color: #ddd;\n}\n\n.sidebar li {\n  margin: 0;\n  padding: 0;\n  list-style: none;\n}\n```\n\nYou can then position your other content alongside the sidebar with CSS, for example:\n\n```\n.main-content {\n  margin-left: 220px;\n  /* adjust the margin to fit your specific layout */\n}\n```",
         "timestamp": "25072024072601",
         "message_id": "guest25072024072557"
+    },
+    {
+        "role": "user",
+        "content": "change  the background color to red and blue mix",
+        "timestamp": "25072024072834",
+        "message_id": "guest25072024072832"
     }
 ]
